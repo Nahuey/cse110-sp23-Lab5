@@ -35,11 +35,11 @@ function init() {
     synth.speak(utterThis);
 
     utterThis.addEventListener("start", function() {
-      img.src = "/assets/images/smiling-open.png";
+      img.src = "assets/images/smiling-open.png";
     });
 
     utterThis.addEventListener("end", function() {
-      img.src = "/assets/images/smiling.png";
+      img.src = "assets/images/smiling.png";
     });
 
   });
